@@ -9,7 +9,7 @@ require('dotenv').config();
 
 const config = {
   connectionString:
-    "postgres://invoice_system_db_nasg_user:p6loAUMz3AR1a434tI2113dQ4udYDMOG@dpg-crjk29m8ii6s73fh9720-a-a.singapore-postgres.render.com/invoice_system_db_nasg?ssl=true",
+    "postgresql://invoice_system_db_nasg_user:p6loAUMz3AR1a434tI2113dQ4udYDMOG@dpg-crjk29m8ii6s73fh9720-a.singapore-postgres.render.com/invoice_system_db_nasg?ssl=true",
 };
 
 const { Client } = require('pg');
